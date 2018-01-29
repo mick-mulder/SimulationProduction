@@ -4,7 +4,7 @@ import argparse
 import time
 
 import sys
-sys.path.append("/home/marinang/SimulationProduction/EvtTypes/")
+sys.path.append("directory where rhn is!")
 from rhn import Generate, AddLifetime, GaussOption
 		
 if __name__=='__main__':
