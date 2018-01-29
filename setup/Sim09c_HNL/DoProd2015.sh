@@ -42,7 +42,7 @@ echo "LHCbApp().EvtMax = $Nevents"       >> Gauss-Job.py
 
 # Run
 
-submit=$HOME/python/Utilities/submit.py
+submit=$PRODDIR/scripts/submit.py
 python $submit "python $Optfile $Nevents $RunNumber" -D $PWD -n MadGraph_$RunNumber -cpu 11000
 
 GaussOption=MadGraph_$RunNumber/Gauss-Option.py
